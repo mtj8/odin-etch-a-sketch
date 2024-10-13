@@ -1,0 +1,23 @@
+.square-grid {
+    display: flex;
+    margin: auto;
+    height: 960px;
+    width: 960px;
+    flex-wrap: wrap;
+    border: 5px solid black;
+}
+
+.square {
+    box-sizing: border-box;
+}
+
+.grid-generator {
+    padding: 12px;
+    border: 0px;
+    border-radius: 18px;
+    background-color: grey;
+    margin: 12px auto;
+    display: block;
+
+    font-size: 36px;
+}
